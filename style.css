@@ -118,7 +118,7 @@ body {
 }
 
 .cover-intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .cover-intro strong[title] {
@@ -142,6 +142,19 @@ body {
 }
 
 /*---[ Tokens ]---------------------------------------------------------------*/
+
+.token {
+    border-radius: .2em;
+    padding: .8rem .8rem 1.2rem;
+}
+
+a.token {
+    text-decoration: none;
+}
+
+a.token:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
 
 .token-name {
     color: #4ccbff;
